@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+img {
+    width: 30%;
+    margin: 1.5% 0;
+    filter: grayscale(100%);
+}
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: 2.5%;
+    padding: 1.5em 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+}
+img:hover {
+    filter: grayscale(0%);
+}
